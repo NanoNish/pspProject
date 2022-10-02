@@ -4,7 +4,6 @@ from django.db import models
 from django.utils import timezone
 from numpy import NaN
 
-
 class Data(models.Model):
     Time = models.CharField(max_length=200, null=False)
     HelioDist = models.FloatField(default=NaN, null=True)

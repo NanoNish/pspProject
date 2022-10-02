@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mergedata/', include('mergedata.urls'))
+    path('mergedata/', include('mergedata.urls')),
+    path('imagedata/', include('imagedata.urls')),
 ]
